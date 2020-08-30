@@ -1,2 +1,4 @@
-github.com/dnsge/go-basic-websocket v0.0.0-20200820223027-a37895a631ed h1:ysxpAbhykPFIvtZrgMgkQlQdh1kNxd8UM7p5wlg6Dyc=
-github.com/dnsge/go-basic-websocket v0.0.0-20200820223027-a37895a631ed/go.mod h1:LnzP6wERml40LKa7WjUvP1kfhwCiMF0SQYLIJGjziFU=
+github.com/dnsge/go-basic-websocket v1.0.0 h1:fe28bp5VZKLidHSendDcmyX06+ifPldv/SwUL8fBEA0=
+github.com/dnsge/go-basic-websocket v1.0.0/go.mod h1:LnzP6wERml40LKa7WjUvP1kfhwCiMF0SQYLIJGjziFU=
+github.com/gorilla/websocket v1.4.2 h1:+/TMaTYc4QFitKJxsQ7Yye35DkWvkdLcvGKqM+x0Ufc=
+github.com/gorilla/websocket v1.4.2/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
