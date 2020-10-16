@@ -58,6 +58,8 @@ type PubSub interface {
 
 	Unlisten(topic string) error
 	UnlistenMany(topics ...string) error
+
+	IsListening(topic string) bool
 }
 
 type PubSubConn struct {
@@ -396,6 +398,10 @@ func (c *PubSubConn) UnlistenMany(topics ...string) error {
 		}
 	}
 	return nil
+}
+
+func (c *PubSubConn) IsListening(topic string) bool {
+	return c.getTopicByName(topic) != nil
 }
 
 // Returns the topic count

@@ -147,6 +147,11 @@ func (p *PubSubPool) UnlistenMany(topics ...string) error {
 	return nil
 }
 
+func (p *PubSubPool) IsListening(topic string) bool {
+	t, _ := p.getTopicByName(topic)
+	return t != nil
+}
+
 func (p *PubSubPool) Start() (err error) {
 	p.runningMutex.Lock()
 	defer p.runningMutex.Unlock()
